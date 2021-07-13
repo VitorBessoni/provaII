@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="https://bit.ly/3wCtVSd">
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="https://bit.ly/3e9qax8" alt="logo iFome"></img>
+    <nav>
+      <ul>
+        <li> <a href="#">Início</a></li>
+        <li><a href="#"> Quem somos</a></li>
+        <li><a href="#"> Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="box">            
+      <h2>Contato</h2>
+
+      <form action="#" method="post">
+        <fieldset></fieldset>        
+
+          <label for="email"> Email:</label>
+          <input type="email" name="email" id="email"></input>
+
+          <label for="nome"> Nome:</label>
+          <input type="text" name="nome" id="nome"></input>
+
+          <label>Telefone: <input type=“tel” placeholder=“(XX)XXXXX-XXXX” pattern=“^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$” id="telefone">
+          </label>
+
+          <label>UF:</label>
+          <input class="uf">
+
+          <label>Cidade:</label>
+          <input class="cidade" type="text">
+
+          <label for="endereco"> Endereço: </label>
+          <textarea name="endereco" id="endereco" cols="30" rows="5"></textarea>
+
+          <label for="assunto"> Assunto:</label>
+          <input type="text" text="assunto" id="assunto"></input>
+
+          <label for="Mensagem"> Mensagem: </label>
+          <textarea name="mensagem" id="mensagem" cols="50" rows="8"></textarea>
+        </fieldset>       
+
+        <fieldset>
+          <select name="Contato" id="Contato">
+            <option value="">Selecione uma opção</option>
+            <option value="visitante">Visitante</option>
+            <option value="aluno">Aluno</option>
+            <option value="professor">Professor</option>
+            <option value="empresa">Empresa</option>
+          </select>
+        </fieldset>
+
+        <button type="submit"> Enviar </button>
+        <button type="reset"> Cancelar </button>
+      </form>
+    </div>
+  </main>
+
+
+  <footer>
+    <h3>Redes Sociais</h3>
+    <a href="https://www.linkedin.com" target="_blank"><img id="icones" src="https://bit.ly/36DAzwN"
+        alt="iconelinkedin"></a>
+    <img id="icones" src="https://bit.ly/3ASvwqm" alt="iconeinstagram">
+  </footer>
+
+
+</body>
+
+</html>
